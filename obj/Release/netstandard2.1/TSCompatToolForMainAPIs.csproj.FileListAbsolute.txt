@@ -1,0 +1,11 @@
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\TSCompatToolForMainAPIs.csproj.AssemblyReference.cache
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\PluginInfo.cs
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\TSCompatToolForMainAPIs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\TSCompatToolForMainAPIs.AssemblyInfoInputs.cache
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\TSCompatToolForMainAPIs.AssemblyInfo.cs
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\TSCompatToolForMainAPIs.csproj.CoreCompileInputs.cache
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\bin\Release\netstandard2.1\PatcherTool.deps.json
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\bin\Release\netstandard2.1\PatcherTool.dll
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\bin\Release\netstandard2.1\PatcherTool.pdb
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\PatcherTool.dll
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\PatcherTool.pdb
