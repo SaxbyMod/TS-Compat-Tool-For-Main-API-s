@@ -9,3 +9,4 @@ C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\bin\Release\netstanda
 C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\bin\Release\netstandard2.1\PatcherTool.pdb
 C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\PatcherTool.dll
 C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\PatcherTool.pdb
+C:\Users\Thinc\RiderProjects\TS-Compat-Tool-For-Main-API's\obj\Release\netstandard2.1\TSCompatToolForMainAPIs.sourcelink.json

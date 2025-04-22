@@ -1,16 +1,15 @@
 using BepInEx;
+using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
 using System.IO;
-using System.Reflection;
-using BepInEx.Configuration;
 using System.Linq;
-using TSCompatToolForMainAPIs.Patches.Texture_Replacer;
+using System.Reflection;
+using TSCompatToolForMainAPIs.Patches;
 
 namespace TSCompatToolForMainAPIs
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
-    [BepInDependency("shaklin.TextureReplacer", BepInDependency.DependencyFlags.HardDependency)]
     public class Plugin : BaseUnityPlugin
     {
         // Declare Harmony here for future Harmony patches. You'll use Harmony to patch the game's code outside of the scope of the API.
@@ -34,16 +33,16 @@ namespace TSCompatToolForMainAPIs
 	        string DLLName = DLLPath.Split('\\').Last();
             // Configs;
             VerboseLogging = Config.Bind<bool>("Content.Addition",
-                        "Verbose Logging?",
-                        false,
-                        "Should Verbose Logging be enabled?");
+	            "Verbose Logging?", 
+	            false,
+	            "Should Verbose Logging be enabled?");
+            
             TextureReplacerMod = Config.Bind<string>("API Settings",
 	            "Texture Replacer Mod ID",
 	            DLLName,
 	            "What mod should be used for Texture Replacer? [Insert the Thunderstore Dependency String, without the version peice, for example; BepInEx-BepInExPack]");
-            
-            // Run Patches
-            harmony.PatchAll(typeof(TXTReplacerPatch));
+            TXTReplacerPatch.RUNTOPATCH();
+            TXTReplacerPatch.AltRUNTOPATCH();
         }
     }
 }

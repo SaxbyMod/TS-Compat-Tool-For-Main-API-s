@@ -11,9 +11,6 @@ using System;
 using System.Reflection;
 
 [assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("Assembly-CSharp")]
-[assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("BepInEx")]
-[assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("BepInEx.Preloader")]
-[assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("Mono.Cecil")]
 [assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("Newtonsoft.Json")]
 [assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("SoundReplacer")]
 [assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("TextureReplacer")]
@@ -27,9 +24,9 @@ using System.Reflection;
 [assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("UnityEngine.UIModule")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatcherTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("A Patcher Tool to make the Main APIS compat with Thunderstore.")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A Patcher Tool to make the Main APIs compat with Thunderstore.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44a2599bc40edaee2c2d5dd44c37a61a7749eb72")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatcherTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatcherTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

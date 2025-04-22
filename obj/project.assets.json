@@ -2801,8 +2801,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thinc\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Thinc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2813,9 +2812,6 @@
       "packagesPath": "C:\\Users\\Thinc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Thinc\\RiderProjects\\TS-Compat-Tool-For-Main-API's\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Thinc\\RiderProjects\\TS-Compat-Tool-For-Main-API's\\NuGet.Config",
         "C:\\Users\\Thinc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2843,7 +2839,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "netstandard2.1": {
@@ -2898,7 +2895,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Thinc\\.dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
